@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Code :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchCode"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Name :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchName"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="City Name :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCityName"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch State :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchState"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Phone :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchPhone"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Email :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchEmail"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Contact Person :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchContactPerson"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Contact Number :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchContactNumber"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Mobile Number :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMobileNumber"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Email Id :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchEmailId"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch LATI :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRanchLATI"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Long :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchLong"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Branch Address :"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtBranchAddress"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+
+
+</LinearLayout>
